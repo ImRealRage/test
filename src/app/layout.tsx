@@ -18,7 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NextTopLoader />
+        <NextTopLoader
+         color="purple"
+         height={4}
+         crawlSpeed={1000}
+         speed={200}
+         />
         {children}
       </body>
     </html>
