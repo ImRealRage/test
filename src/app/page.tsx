@@ -14,6 +14,9 @@ export default function Home() {
 
   return (
     <div className="text-center pt-8">
+      <p className="text-[150px] font-extrabold bg-gradient-to-r from-red-600 to-purple-600 text-transparent bg-clip-text">
+        ankit noob
+      </p>
       <h1 className="text-4xl mb-4">{message}</h1>
       <button
         className="text-3xl bg-blue-500 text-white py-2 px-4 rounded-full transform transition-all duration-300 hover:scale-110 active:scale-90 mb-4"
